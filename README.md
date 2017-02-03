@@ -1,4 +1,4 @@
-# Module: MMM-Valentine
+# Module: MMM-Saint Patrick
 Initial idea by [tamug1](https://forum.magicmirror.builders/topic/1630/replacing-snow-flakes-with-hearts-in-the-mmm-snow-module).
 
 Most of the code shamelessly borrowed from [MMM-Snow module by @MichMich](https://github.com/MichMich/MMM-Snow) which was inspired by [NHubbard's Snow Plugin](https://github.com/nhubbard/MagicPlugins/tree/master/snow)
