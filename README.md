@@ -3,7 +3,22 @@ Initial idea by [tamug1](https://forum.magicmirror.builders/topic/1630/replacing
 
 Most of the code shamelessly borrowed from [MMM-Snow module by @MichMich](https://github.com/MichMich/MMM-Snow) which was inspired by [NHubbard's Snow Plugin](https://github.com/nhubbard/MagicPlugins/tree/master/snow)
 
-Icons designed by [Freepik from Flaticon](http://www.flaticon.com/packs/linear-color-valentines-day-set).
+Icons credits:
+image1 http://www.flaticon.com/authors/zlatko-najdenovski
+image2 http://www.flaticon.com/authors/freepik
+image3 http://www.flaticon.com/authors/freepik
+image4 http://www.flaticon.com/authors/freepik
+image5 http://www.flaticon.com/authors/madebyoliver
+image6 http://www.flaticon.com/authors/madebyoliver
+image7 http://www.flaticon.com/authors/baianat
+image8 http://www.flaticon.com/authors/freepik
+image9 http://www.flaticon.com/authors/zlatko-najdenovski
+image10 http://www.flaticon.com/authors/freepik
+image11 http://www.flaticon.com/authors/freepik
+image12 http://www.flaticon.com/authors/freepik
+image13 http://www.flaticon.com/authors/freepik
+image14 http://www.flaticon.com/authors/freepik
+image15 http://www.flaticon.com/authors/freepik
 
 ![](.github/screenshot_small.png)
 
@@ -16,7 +31,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone https://github.com/morozgrafix/MMM-Valentine.git
+git clone https://github.com/schlachtkreuzer6/MMM-Saint-Patrick.git
 ````
 
 Configure the module in your `config.js` file.
@@ -29,7 +44,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: 'MMM-Valentine',
+		module: 'MMM-Saint-Patrick',
 		position: 'fullscreen_above',
 		config: {
 			// See 'Configuration options' for more information.
