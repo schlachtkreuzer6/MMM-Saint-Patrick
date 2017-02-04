@@ -22,7 +22,7 @@ Icons credits:
 [image14] (http://www.flaticon.com/authors/freepik)
 [image15] (http://www.flaticon.com/authors/freepik)
 
-![](.github/screenshot.png)
+![](.github/screenshot.PNG)
 
 ## Installation
 
