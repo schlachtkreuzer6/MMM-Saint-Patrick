@@ -1,0 +1,66 @@
+.MMM-Saint-Patrick .patrick-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.MMM-Saint-Patrick .saint-patrick {
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    width: 20%;
+
+    animation-name: patrick-drop;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.MMM-Saint-Patrick .saint-patrick div {
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: patrick-jiggle;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+.MMM-Saint-Patrick .patrick1 {background-image: url('images/image1.png');}
+.MMM-Saint-Patrick .patrick2 {background-image: url('images/image2.png');}
+.MMM-Saint-Patrick .patrick3 {background-image: url('images/image3.png');}
+.MMM-Saint-Patrick .patrick4 {background-image: url('images/image4.png');}
+.MMM-Saint-Patrick .patrick5 {background-image: url('images/image5.png');}
+.MMM-Saint-Patrick .patrick6 {background-image: url('images/image6.png');}
+.MMM-Saint-Patrick .patrick7 {background-image: url('images/image7.png');}
+.MMM-Saint-Patrick .patrick8 {background-image: url('images/image8.png');}
+.MMM-Saint-Patrick .patrick9 {background-image: url('images/image9.png');}
+.MMM-Saint-Patrick .patrick10 {background-image: url('images/image10.png');}
+.MMM-Saint-Patrick .patrick11 {background-image: url('images/image11.png');}
+.MMM-Saint-Patrick .patrick12 {background-image: url('images/image12.png');}
+.MMM-Saint-Patrick .patrick13 {background-image: url('images/image13.png');}
+.MMM-Saint-Patrick .patrick14 {background-image: url('images/image14.png');}
+.MMM-Saint-Patrick .patrick15 {background-image: url('images/image15.png');}
+
+
+
+@keyframes patrick-drop {
+    from {top: -25%}
+    to {top: 125%}
+}
+
+@keyframes patrick-jiggle {
+    0% {left: 0}
+    20% {left: 80%}
+    30% {left: 20%}
+    50% {left: 100%}
+    70% {left: 0}
+    85% {left: 60%}
+    100% {left: 0}
+}
