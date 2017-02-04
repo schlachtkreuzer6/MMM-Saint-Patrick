@@ -44,10 +44,11 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: 'MMM-Saint-Patrick',
-		position: 'fullscreen_above',
-		config: {
-			// See 'Configuration options' for more information.
+		"module": "MMM-Saint-Patrick",
+		"position": "fullscreen_above",
+		"config": { // See 'Configuration options' for more information.
+			"valentinesCount": "50", //default 50
+			"valentinesSize": "1.00" //default 1.00
 		}
 	}
 ]
